@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styleColaborador.css">
+    <link rel="icon" href="imagens/LogoT1.png" type="image/x-icon">
+    <title>Cadastro de colaborador</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0c7fd3;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">Home</a>
+                <a class="nav-item nav-link" href="login.html">Login</a>
+                <a class="nav-item nav-link" href="local.html">Em breve <span class="sr-only">(Página atual)</span></a>
+                <a class="nav-item nav-link" href="agenda.html">Em breve</a>
+                <a class="nav-item nav-link active" href="#">Em breve</a>
+                <a class="nav-item nav-link" href="equipamento.html">Em breve</a>
+            </div>
+        </div>
+    </nav>
+    <div class="row mx-auto">
+        <div class="col text-md-left">
+            <h1 class="w-100">Cadastro de Patrocinador</h1>
+            <h4>Escolha o Patrocinador e o nome do Representante : </h4>
+        </div>
+    </div>
+    <form id="form-container">
+        <div class="form-Kawasaki Motors">
+            <input type="radio" id="form-Kawasaki" name="tipo_kawasaki" value="Kawasaki">
+            <label for="form-Kawasaki">Kawasaki</label>
+        </div>
+            
+        <div class="form-Yamaha Motors">
+            <input type="radio" id="form-Yamaha" name="tipo_Yamaha" value="Yamaha">
+            <label for="Yamaha">Yamaha</label>
+        </div>
+            
+        <div class="form-Honda Motos">
+            <input type="radio" id="form-Honda" name="tipo_Honda" value="Honda">
+            <label for="Honda">Honda</label>
+        </div>
+
+        <div class="form-Ducati Motors">
+            <input type="radio" id="form-Ducati" name="tipo_Ducati" value="Ducati">
+            <label for="Ducati">Ducati</label>
+        </div>
+            
+        <div class="nome-do-Representante">
+            <label for="nome-do-Representante">Nome:</label>
+            <input type="text" id="nome-do-Representante" name="nome-do-Representante" placeholder="Nome do Representante"><br>
+        </div>
+
+        <input type="submit" value="Salvar" class="btn btn-primary">
+    </form>  
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
+</body>
+</html>

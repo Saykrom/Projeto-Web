@@ -1,0 +1,65 @@
+body {
+    background-image: url("../imagens/fundoBreve.jpg") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%; /* Define um formato circular para as imagens */
+}
+.navbar-dark {
+    background-color: transparent !important;
+}
+
+.nav-link {
+    color: white ;
+}
+
+.col {
+    margin-top: 5em !important;
+    width: max-content;
+}
+
+.col img {
+    width: 6em;
+}
+
+.col h1 {
+    font-size: 3em !important;
+    color: white;
+}
+
+.col p {
+    font-size: 1.3em;
+    color: white;
+}
+
+.text-truncate {
+    white-space: normal;
+}
+
+.btn-primary {
+    background-color: #b31ff7;
+    border-color: #b31ff7;
+}
+
+button, input, optgroup, select, textarea{
+
+    margin: 10px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
